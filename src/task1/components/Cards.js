@@ -106,7 +106,7 @@ const Cards = ({name , username , email , street , suite , city , zipcode , phon
       <div className="col-2"></div>
         <div className="col-8">
             <div className="contact-box center-version">
-                <a href="#profile.html">
+                <a href="#">
                     <img alt="image" class="img-circle" src="https://bootdey.com/img/Content/avatar/avatar1.png" />
                     <h3 className="m-b-xs"><strong>{name}</strong></h3>
         
@@ -131,9 +131,9 @@ const Cards = ({name , username , email , street , suite , city , zipcode , phon
         
                 </a>
                 <div className="contact-box-footer">
-                  <a className="btn btn-xs btn-white" href="{phone}"><i class="fa fa-phone"></i>Phone : {phone}</a>
-                  <a className="btn btn-xs btn-white" href="{email}"><i class="fa fa-envelope"></i> Email : {email}</a>
-                  <a className="btn btn-xs btn-white" href="{website}"><i class="fa fa-cloud"></i>Website : {website}</a> 
+                  <h6 className="btn btn-xs btn-white" href="{phone}"><i class="fa fa-phone"></i>Phone : {phone}</h6>
+                  <h6 className="btn btn-xs btn-white" href="{email}"><i class="fa fa-envelope"></i> Email : {email}</h6>
+                  <h6 className="btn btn-xs btn-white" href="{website}"><i class="fa fa-cloud"></i>Website : {website}</h6> 
                     
                 </div>
         

@@ -6,17 +6,21 @@ export default class MainPage extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        cards: []
+        cards: [],
+        
       };
     }
+
     componentDidMount() {
       Api.getAllCards(data => this.setState({ cards: data}));
+      
     }
     render() {
+
       return (
-        <>
-            <CardsList cards={this.state.cards} />
-        </>
+        <div>
+                <CardsList cards={this.state.cards} />
+        </div>
       );
     }
 }
