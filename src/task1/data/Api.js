@@ -6,4 +6,5 @@ export default class Api {
 			.then(response => cb(response.data))
 			.catch(error => { throw error });
 	}
+	
 }

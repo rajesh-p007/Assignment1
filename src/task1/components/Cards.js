@@ -131,9 +131,9 @@ const Cards = ({name , username , email , street , suite , city , zipcode , phon
         
                 </a>
                 <div className="contact-box-footer">
-                  <h6 className="btn btn-xs btn-white" href="{phone}"><i class="fa fa-phone"></i>Phone : {phone}</h6>
-                  <h6 className="btn btn-xs btn-white" href="{email}"><i class="fa fa-envelope"></i> Email : {email}</h6>
-                  <h6 className="btn btn-xs btn-white" href="{website}"><i class="fa fa-cloud"></i>Website : {website}</h6> 
+                  <h6><i class="fa fa-phone"></i>Phone : {phone}</h6>
+                  <h6><i class="fa fa-envelope"></i> Email : {email}</h6>
+                  <h6><i class="fa fa-cloud"></i>Website : {website}</h6> 
                     
                 </div>
         
